@@ -11,7 +11,7 @@ services:
     ports:
       - "8081:8081"
     environment:
-      - WEATHER_API_KEY=${WEATHER_API_KEY}
+      - WEATHER_API_KEY=coloque_sua_api_key_aqui
       - OTEL_SERVICE_NAME=service-b
       - OTEL_EXPORTER_OTLP_ENDPOINT=http://zipkin:9411/api/v2/spans
       - OTEL_TRACES_EXPORTER=zipkin

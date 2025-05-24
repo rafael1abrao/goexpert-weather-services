@@ -39,7 +39,7 @@ cp service-b/service-b.env.example service-b/.env
 
 Edite o arquivo `services/service-b/.env` e informe sua chave da WeatherAPI:
 
-```env
+```env e docker-compose.yml
 WEATHER_API_KEY=coloque_sua_api_key_aqui
 ```
 
@@ -109,7 +109,6 @@ Clique em “Find Traces” para explorar os spans entre:
 ```bash
 .
 ├── docker-compose.yml
-├── services/
 │   ├── service-a/
 │   │   ├── .env.example
 │   │   ├── main.go, handler/, service/
