@@ -33,8 +33,8 @@ cd goexpert-weather-services
 Copie os arquivos `.env.example` para `.env` em cada serviço:
 
 ```bash
-cp services/service-a/service-a.env.example services/service-a/.env
-cp services/service-b/service-b.env.example services/service-b/.env
+cp service-a/service-a.env.example service-a/.env
+cp service-b/service-b.env.example service-b/.env
 ```
 
 Edite o arquivo `services/service-b/.env` e informe sua chave da WeatherAPI:
