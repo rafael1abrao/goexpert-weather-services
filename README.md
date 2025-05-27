@@ -42,6 +42,14 @@ Edite o arquivo `services/service-b/.env` e informe sua chave da WeatherAPI:
 
 ## Caso rode pelo Docker editar o yaml
 ```env e docker-compose.yml
+
+service-b:
+    build: ./service-b
+    ports:
+      - "8081:8081"
+    environment:
+      - WEATHER_API_KEY=coloque_sua_api_key_aqui
+
 WEATHER_API_KEY=coloque_sua_api_key_aqui
 ```
 
